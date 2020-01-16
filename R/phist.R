@@ -6,8 +6,8 @@
 #' @examples
 #' @export
 phist = function(x) {
-  pp = ggplot(data.frame(x =gm_mean(x),aes(x))+
+  pp = ggplot(data.frame(x =x),aes(x))+
     theme_bw()+
-    geom_histogram()
+    geom_histogram(fill="blue")
     pp
 }
