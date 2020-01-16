@@ -4,7 +4,7 @@
 \alias{phist}
 \title{My function}
 \usage{
-phist(x)
+phist(x, ...)
 }
 \arguments{
 \item{x}{}
